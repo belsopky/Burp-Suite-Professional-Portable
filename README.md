@@ -16,7 +16,12 @@
     <a href="https://openjdk.org/"><img src="https://img.shields.io/badge/JDK-21-red?style=for-the-badge&logo=openjdk" alt="JDK Version"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
   </p>
-
+<!-- Tech Stack & Languages (Centered) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Script">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Linux_Desktop_Entry-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Desktop Entry">
+</p>
   <!-- Navigation Links -->
   <p>
     <a href="#quick-start"><b>Quick Start</b></a> &nbsp;•&nbsp;
