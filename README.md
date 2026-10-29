@@ -279,11 +279,14 @@ Distributed under the MIT License. See `LICENSE` for more information regarding 
 
 ## Maintainers
 
-| Name | GitHub | Role |
-| --- | --- | --- |
-| Bassam Elsopky (HaQtor) | [@belsopky](https://github.com/belsopky) | Author and Maintainer |
+**Bassam Elsopky (HaQtor)**
 
-[Back to top](https://www.google.com/search?q=%23top)
+- [gunslol](https://guns.lol/elsopky)
+- [GitHub](https://github.com/belsopky)
+- [LinkedIn](https://www.linkedin.com/in/bassam-elsopky-814ba1331/)
+- [Docker Hub](https://hub.docker.com/r/haqtor/csrf-lab-v2)
+- 
+[Back to top](#overview)
 
 ---
 
