@@ -2,6 +2,8 @@
 
 <div align="center">
 
+  <img src="banner.png" alt="Burp Suite Professional Portable Banner" width="100%">
+
 # Burp Suite Professional Portable
 A portable, fully integrated, and production-ready Linux deployment package for Burp Suite Professional.
 
