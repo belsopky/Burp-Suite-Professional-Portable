@@ -3,41 +3,56 @@ A portable, fully integrated, and production-ready Linux deployment package for 
 
 000
 
+0000
+
+
+
+
+
+
+<a id="top"></a>
+
+<div align="center">
 
 # Burp Suite Professional Portable
-
 A portable, fully integrated, and production-ready Linux deployment package for Burp Suite Professional.
 
-[Quick Start](https://www.google.com/search?q=%23quick-start) · [Installation](https://www.google.com/search?q=%23installation) · [Usage](https://www.google.com/search?q=%23usage) · [Architecture](https://www.google.com/search?q=%23architecture) · [Troubleshooting and FAQ](https://www.google.com/search?q=%23troubleshooting-and-faq) · [License](https://www.google.com/search?q=%23license)
+<br>
+
+[Quick Start](#quick-start) · [Download](#download-archive) · [Installation](#installation) · [Usage](#usage) · [Architecture](#architecture) · [Troubleshooting and FAQ](#troubleshooting-and-faq) · [License](#license)
+
+</div>
+<br>
 
 Burp Suite Professional Portable is a self-contained deployment package designed for penetration testers and security researchers on Linux distributions. It delivers automated system integration, dynamic Java runtime paths, window class mapping, and seamless cross-machine installation with zero manual configuration overhead.
 
 ---
 
 ## Table of Contents
-
-* [Overview](https://www.google.com/search?q=%23overview)
-* [Why This Project](https://www.google.com/search?q=%23why-this-project)
-* [Features](https://www.google.com/search?q=%23features)
-* [Quick Start](https://www.google.com/search?q=%23quick-start)
-* [Installation](https://www.google.com/search?q=%23installation)
-* [Configuration](https://www.google.com/search?q=%23configuration)
-* [Usage](https://www.google.com/search?q=%23usage)
-* [Architecture](https://www.google.com/search?q=%23architecture)
-* [Compatibility](https://www.google.com/search?q=%23compatibility)
-* [Troubleshooting and FAQ](https://www.google.com/search?q=%23troubleshooting-and-faq)
-* [Security](https://www.google.com/search?q=%23security)
-* [Legal Notice and Responsible Use](https://www.google.com/search?q=%23legal-notice-and-responsible-use)
-* [Versioning and Changelog](https://www.google.com/search?q=%23versioning-and-changelog)
-* [License](https://www.google.com/search?q=%23license)
-* [Maintainers](https://www.google.com/search?q=%23maintainers)
+- [Overview](#overview)
+- [Why This Project](#why-this-project)
+- [Features](#features)
+- [Download Archive](#download-archive)
+- [Quick Start](#quick-start)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [License Activation Guide](#license-activation-guide)
+- [Architecture](#architecture)
+- [Compatibility](#compatibility)
+- [Troubleshooting and FAQ](#troubleshooting-and-faq)
+- [Security](#security)
+- [Legal Notice and Responsible Use](#legal-notice-and-responsible-use)
+- [Versioning and Changelog](#versioning-and-changelog)
+- [License](#license)
+- [Maintainers](#maintainers)
 
 ---
 
 ## Overview
 
 | Attribute | Details |
-| --- | --- |
+| :--- | :--- |
 | **Status** | Stable |
 | **Latest Version** | 2025.9.4 |
 | **Primary Language** | Shell, Java |
@@ -52,7 +67,7 @@ Burp Suite Professional Portable bridges the gap between manual Java application
 ## Why This Project
 
 | Problem | Approach | Outcome |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Manual configuration of Burp Suite Professional on Linux requires repetitive setup of JVM module flags, agent bindings, and environment variables. | Encapsulates runtime logic into dynamic shell scripts (`run.sh`) that resolve paths at execution time. | Eliminates manual command construction and path maintenance across different machines. |
 | Linux window managers (GNOME/XFCE) treat raw Java runtime processes as unassigned windows, resulting in generic fallback icons in taskbars. | Enforces explicit window class mapping (`StartupWMClass=burp-StartBurp`) within system desktop entries. | Clean visual integration and permanent dock grouping under the official application icon. |
 
@@ -61,11 +76,19 @@ Burp Suite Professional Portable bridges the gap between manual Java application
 ## Features
 
 | Capability | Description |
-| --- | --- |
+| :--- | :--- |
 | **Dynamic Path Resolution** | Evaluates the runtime directory using BASH source expansion to guarantee absolute portability across arbitrary user accounts and storage media. |
 | **Automated System Integration** | Registers `.desktop` shortcuts, updates system icon caches, and configures desktop databases automatically via `install.sh`. |
 | **Native Dock Binding** | Maps window identifiers to ensure active application windows anchor cleanly to the official icon in the system taskbar. |
 | **Encapsulated JVM Flags** | Pre-configures all mandatory modular access permissions (`--add-opens`) and bytecode verification bypasses required by modern Java runtimes. |
+
+---
+
+## Download Archive
+
+Due to GitHub repository file size limitations (25MB limit for direct web uploads), the full pre-packaged portable distribution archive (`BurpSuitePro_Portable.tar.gz`) is hosted securely on Google Drive:
+
+* **[Download BurpSuitePro_Portable.tar.gz (Google Drive)](YOUR_GOOGLE_DRIVE_LINK_HERE)**
 
 ---
 
@@ -74,7 +97,7 @@ Burp Suite Professional Portable bridges the gap between manual Java application
 Get a working instance in under five minutes.
 
 ```bash
-# 1. Extract the portable archive
+# 1. Download and extract the portable archive
 tar -xzvf BurpSuitePro_Portable.tar.gz && cd BurpSuitePro_Portable
 
 # 2. Grant execution permissions and run automated installation
@@ -251,3 +274,6 @@ Distributed under the MIT License. See `LICENSE` for more information regarding 
 | Bassam Elsopky (HaQtor) | [@belsopky](https://github.com/belsopky) | Author and Maintainer |
 
 [Back to top](https://www.google.com/search?q=%23top)
+
+---
+
