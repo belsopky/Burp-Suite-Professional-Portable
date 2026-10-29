@@ -98,7 +98,7 @@ Burp Suite Professional Portable bridges the gap between manual Java application
 
 Due to GitHub repository file size limitations (25MB limit for direct web uploads), the full pre-packaged portable distribution archive (`BurpSuitePro_Portable.tar.gz`) is hosted securely on Google Drive:
 
-* **[Download BurpSuitePro_Portable.tar.gz (Google Drive)](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+* **[Download BurpSuitePro_Portable.tar.gz (Google Drive)](https://drive.google.com/drive/folders/1ycAz_Z3gjbv1OcwHSnWtj1qwufjcuTHC?usp=sharing)**
 
 ---
 
