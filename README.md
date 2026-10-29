@@ -1,17 +1,37 @@
 <a id="top"></a>
 
 <div align="center">
+  <!-- Main Banner -->
+  <img src="banner.png" alt="Burp Suite Professional Portable Banner" width="100%" style="border-radius: 10px; margin-bottom: 15px;">
+  <br><br>
 
-  <img src="banner.png" alt="Burp Suite Professional Portable Banner" width="100%">
+  <!-- Title & Tagline -->
+  <h1>Burp Suite Professional Portable</h1>
+  <p><em>A portable, fully integrated, and production-ready Linux deployment package for Burp Suite Professional.</em></p>
 
-# Burp Suite Professional Portable
-A portable, fully integrated, and production-ready Linux deployment package for Burp Suite Professional.
+  <!-- Badges -->
+  <p>
+    <a href="https://github.com/belsopky/Burp-Suite-Professional-Portable/releases"><img src="https://img.shields.io/badge/Release-2025.9.4-orange?style=for-the-badge&logo=burpsuite" alt="Release Version"></a>
+    <a href="https://www.linux.org/"><img src="https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge&logo=linux" alt="Platform"></a>
+    <a href="https://openjdk.org/"><img src="https://img.shields.io/badge/JDK-21-red?style=for-the-badge&logo=openjdk" alt="JDK Version"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
+  </p>
 
-<br>
-
-[Quick Start](#quick-start) · [Download](#download-archive) · [Installation](#installation) · [Usage](#usage) · [Architecture](#architecture) · [Troubleshooting and FAQ](#troubleshooting-and-faq) · [License](#license)
+  <!-- Navigation Links -->
+  <p>
+    <a href="#quick-start"><b>Quick Start</b></a> &nbsp;•&nbsp;
+    <a href="#download-archive"><b>Download</b></a> &nbsp;•&nbsp;
+    <a href="#installation"><b>Installation</b></a> &nbsp;•&nbsp;
+    <a href="#usage"><b>Usage</b></a> &nbsp;•&nbsp;
+    <a href="#architecture"><b>Architecture</b></a> &nbsp;•&nbsp;
+    <a href="#troubleshooting-and-faq"><b>FAQ</b></a> &nbsp;•&nbsp;
+    <a href="#license"><b>License</b></a>
+  </p>
 
 </div>
+
+<hr>
+
 <br>
 
 Burp Suite Professional Portable is a self-contained deployment package designed for penetration testers and security researchers on Linux distributions. It delivers automated system integration, dynamic Java runtime paths, window class mapping, and seamless cross-machine installation with zero manual configuration overhead.
